@@ -7,9 +7,17 @@
     font-weight: 24px;
     color: #f9faf8;
     display: flex;
+    align-items: center ;
+}
+
+.headerLogo,
+.header ul {
+    margin-left: 30;
 }
 
 .header ul {
     text-decoration: none;
-    
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
 }
