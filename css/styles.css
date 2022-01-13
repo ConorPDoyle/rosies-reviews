@@ -1,0 +1,15 @@
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    font-weight: 24px;
+    color: #f9faf8;
+    display: flex;
+}
+
+.header ul {
+    text-decoration: none;
+    
+}
