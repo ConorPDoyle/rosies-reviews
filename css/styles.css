@@ -5,12 +5,16 @@
 
 .header,
 .splash {
-    margin: 0 400px;
-    padding: 0 80px;
     max-width: 800px;
+    min-width: 600px;
     display: flex;
-    justify-content: center;
     flex: 0;
+}
+
+#pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
