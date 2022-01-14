@@ -15,7 +15,6 @@ body {
     min-width: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #pageContainer {
@@ -59,12 +58,8 @@ a:hover{
 .splashText {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 700px;
     min-width: 315px;
+    flex: 1;
 }
 
 .heroBlock {
