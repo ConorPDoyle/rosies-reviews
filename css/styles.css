@@ -16,7 +16,7 @@ body {
     min-width: 400px;
     display: flex;
     align-items: center;
-    margin-top: 30px; 
+    /* margin-top: 20px;  */
 }
 
 #pageContainer {
@@ -29,6 +29,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     background-color: #1F2937;
+    margin-top: 0px;
 }
 
 .header ul {
@@ -41,6 +42,10 @@ body {
     margin-left: auto;
     padding-left: 0;
     gap: 16px;
+}
+
+.header > * {
+    margin: 0 40px 20px
 }
 
 ul a, a:focus, a:active {
@@ -63,6 +68,7 @@ a:hover{
     color: #E5E7EB;
     min-width: 315px;
     flex: 1;
+    margin: 0 40px;
 }
 
 .heroBlock {
