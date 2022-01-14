@@ -10,11 +10,13 @@ body {
 .splash,
 .recent,
 .rosieQuote,
+.signUp,
 .footer {
     max-width: 1100px;
     min-width: 400px;
     display: flex;
     align-items: center;
+    margin-top: 30px; 
 }
 
 #pageContainer {
@@ -53,6 +55,7 @@ a:hover{
 .splash {
     background-color: #1F2937;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 
 .splashText {
@@ -68,12 +71,10 @@ a:hover{
     color: #F9FAF8;
 }
 
-.recent {
+.recent,
+.signUp {
     background-color: white;
-    flex-direction: column;
-    /* TO TEST MARGIN
-     margin-top: 30px; 
-     */
+    flex-direction: column;    
 }
 
 .reviewCards {
@@ -118,7 +119,15 @@ a:hover{
     font-style: normal;
 }
 
-
+.signUpContainer {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    display: flex;
+    margin: 40px 80px;
+}
 
 button {
     border: none;
@@ -127,3 +136,7 @@ button {
     color: white;
     padding: 8px 24px;
   }
+ 
+button.signUpButton {
+    margin-left: 150px;
+}
