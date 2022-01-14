@@ -100,6 +100,25 @@ a:hover{
     color: #1F2937;
   }
 
+.rosieQuote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.rosieTitle {
+    margin-left: auto;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 
 button {
     border: none;
