@@ -3,21 +3,32 @@
     background-color: #1F2937;
 }
 
+.header,
+.splash {
+    margin: 0 40px;
+    padding: 0 8px;
+}
+
 .header {
-    font-weight: 24px;
+    font-size: 24px;
     color: #f9faf8;
     display: flex;
-    align-items: center ;
-}
-
-.headerLogo,
-.header ul {
-    margin-left: 30;
+    align-items: center;
+    margin-left: 40px;
+    padding: 0 8px;
 }
 
 .header ul {
+    font-size: 18px;
+    color: #E5E7EB;
     text-decoration: none;
     list-style-type: none;
     display: flex;
     margin-left: auto;
+    gap: 15px;
+}
+
+ul  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
